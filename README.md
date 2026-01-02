@@ -79,13 +79,12 @@ pip install cryptography openpyxl
 
 ## File Structure
 
-"""
+"""text
 password-manager/
 ├── password_manager.py    # Main application file
 ├── key.key               # Encryption key (auto-generated)
 ├── pin.hash              # Hashed PIN (auto-generated)
 └── vault.db              # SQLite database (auto-generated)
-"""
 
 ## Database Schema
 
