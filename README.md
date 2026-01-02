@@ -76,24 +76,13 @@ pip install cryptography openpyxl
 1. Click *Change PIN*
 2. Verify current PIN
 3. Enter and confirm new PIN
-
+   
 ## File Structure
-"""text
-password-manager/
-├── password_manager.py    # Main application file
-├── key.key               # Encryption key (auto-generated)
-├── pin.hash              # Hashed PIN (auto-generated)
-└── vault.db              # SQLite database (auto-generated)
 
-## Database Schema
-
-* Table: vault *
-sql
-CREATE TABLE vault (
-    site TEXT,      -- Website/service name
-    user TEXT,      -- Username/email
-    pwd BLOB        -- Encrypted password
-)
+- password_manager.py - Main application file
+- key.key - Encryption key (auto-generated)
+- pin.hash - Hashed PIN (auto-generated)
+- vault.db - SQLite database (auto-generated)
 
 *Important Security Information:*
 
