@@ -17,7 +17,7 @@ The Secure Password Manager Suite is a desktop application built using Python th
 - *View All*: Display all stored passwords in a clean format
 - *Duplicate Prevention*: Warns if entry already exists
 
- ### 📊 Export & Backup
+### 📊 Export & Backup
 - *Excel Export*: Export all passwords to an XLSX file for backup
 - Decrypted passwords included in export for easy access
 
@@ -30,10 +30,10 @@ The Secure Password Manager Suite is a desktop application built using Python th
 
 ## Installation
 save the safepass.py file 
-### Prerequisites
+ ### Prerequisites
 bash
 pip install cryptography openpyxl
-### Required Packages
+ ### Required Packages
 - tkinter (usually comes with Python)
 - cryptography - For password encryption
 - openpyxl - For Excel export functionality
@@ -58,7 +58,7 @@ pip install cryptography openpyxl
 - Click *View All* to display all stored passwords
 - Passwords are automatically loaded on startup
 
-- ### Updating Passwords
+### Updating Passwords
 1. Enter the exact site name and username
 2. Enter the new password
 3. Click *Update*
@@ -80,13 +80,13 @@ pip install cryptography openpyxl
 
 ## File Structure
 
-
+'''
 password-manager/
 ├── password_manager.py    # Main application file
 ├── key.key               # Encryption key (auto-generated)
 ├── pin.hash              # Hashed PIN (auto-generated)
 └── vault.db              # SQLite database (auto-generated)
-
+'''
 
 ## Database Schema
 
