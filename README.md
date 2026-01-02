@@ -26,7 +26,6 @@ The Secure Password Manager Suite is a desktop application built using Python th
 - Color-coded buttons for different actions
 - Status messages for user feedback
 - Scrollable password display area
-[11:29 am, 02/01/2026] +91 87400 22105: ## Installation
 
 ## Installation
 save the safepass.py file 
@@ -80,17 +79,17 @@ pip install cryptography openpyxl
 
 ## File Structure
 
-'''
+"""
 password-manager/
 ├── password_manager.py    # Main application file
 ├── key.key               # Encryption key (auto-generated)
 ├── pin.hash              # Hashed PIN (auto-generated)
 └── vault.db              # SQLite database (auto-generated)
-'''
+"""
 
 ## Database Schema
 
-*Table: vault*
+* Table: vault *
 sql
 CREATE TABLE vault (
     site TEXT,      -- Website/service name
