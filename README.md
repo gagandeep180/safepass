@@ -78,7 +78,6 @@ pip install cryptography openpyxl
 3. Enter and confirm new PIN
 
 ## File Structure
-
 """text
 password-manager/
 ├── password_manager.py    # Main application file
