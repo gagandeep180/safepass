@@ -17,8 +17,7 @@ The Secure Password Manager Suite is a desktop application built using Python th
 - *View All*: Display all stored passwords in a clean format
 - *Duplicate Prevention*: Warns if entry already exists
 
-
-- [11:28 am, 02/01/2026] +91 87400 22105: ### 📊 Export & Backup
+ ### 📊 Export & Backup
 - *Excel Export*: Export all passwords to an XLSX file for backup
 - Decrypted passwords included in export for easy access
 
@@ -133,7 +132,7 @@ CREATE TABLE vault (
 - No password strength checker
 - No password generator included
 - Local storage only
-- 
+  
 
 ## License
 This project is open source and available for personal use.
