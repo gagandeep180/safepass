@@ -10,7 +10,7 @@ The Secure Password Manager Suite is a desktop application built using Python th
 * Encryption: All passwords encrypted using Fernet (symmetric encryption)
 * Secure Hashing: PINs are hashed using SHA-256 before storage
 * Lockout Protection: 3 failed PIN attempts locks the application
-### Password Management
+### 🥷🏻 Password Management
 - *Save*: Store new passwords with site/service name and username
 - *Update*: Modify existing password entries
 - *Delete*: Remove password entries with confirmation
@@ -34,7 +34,7 @@ save the safepass.py file
 ### Prerequisites
 bash
 pip install cryptography openpyxl
-[11:29 am, 02/01/2026] +91 87400 22105: ### Required Packages
+### Required Packages
 - tkinter (usually comes with Python)
 - cryptography - For password encryption
 - openpyxl - For Excel export functionality
